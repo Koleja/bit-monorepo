@@ -1,0 +1,1 @@
+export { TestPageApp } from './app';

@@ -39,6 +39,18 @@
             }
         }
     },
+    "components/link-button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "wiki/components/link-button",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
     "pages/contact": {
         "scope": "",
         "version": "",

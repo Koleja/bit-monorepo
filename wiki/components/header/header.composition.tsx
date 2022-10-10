@@ -1,5 +1,6 @@
-import { PageLink } from '@my-org/wiki.common';
+import { PageLink, PagelinkUI } from '@my-org/wiki.common';
 import React from 'react';
+import { Link, MemoryRouter } from 'react-router-dom';
 import { Header } from './header';
 
 const testPages: PageLink[] = [
@@ -7,6 +8,22 @@ const testPages: PageLink[] = [
   { title: 'test2', route: '/test' },
 ];
 
+const testPagesUI: PagelinkUI[] = [
+  {
+    component: <p className="header__link">Home</p>,
+  },
+  {
+    component: <p className="header__link">About</p>,
+  },
+  {
+    component: <p className="header__link">Contact</p>,
+  },
+];
+
 export const BasicHeader = () => {
-  return <Header pages={testPages} />;
+  return (
+    <MemoryRouter>
+      <Header pages={testPages} pagesElements={testPagesUI} />
+    </MemoryRouter>
+  );
 };

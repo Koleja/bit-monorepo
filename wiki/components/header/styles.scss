@@ -14,5 +14,10 @@
         font-size: 36px;
         padding: 0 16px;
         text-transform: capitalize;
+        text-decoration: none;
+
+        &:hover {
+            opacity: 0.8;
+        }
     }
 }

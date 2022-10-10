@@ -67,6 +67,5 @@
    **/
   "teambit.workspace/variants": {},
   "my-org.wiki/pages/contact": {},
-  "my-org.wiki/pages/my-react-app": {},
-  "my-org.my-wiki/pages/test-page": {}
+  "my-org.wiki/pages/my-react-app": {}
 }

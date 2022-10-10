@@ -9,32 +9,6 @@
  */
 
 {
-    "apps/shared-header": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "my-org.my-wiki",
-        "mainFile": "index.ts",
-        "rootDir": "my-wiki/apps/shared-header",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
-    },
-    "apps/to-do": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "my-org.my-wiki",
-        "mainFile": "index.ts",
-        "rootDir": "my-wiki/apps/to-do",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
-    },
     "common": {
         "scope": "",
         "version": "",
@@ -82,19 +56,6 @@
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "wiki/pages/my-react-app",
-        "config": {
-            "teambit.harmony/aspect": {},
-            "teambit.envs/envs": {
-                "env": "teambit.harmony/aspect"
-            }
-        }
-    },
-    "pages/test-page": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "my-org.my-wiki",
-        "mainFile": "index.ts",
-        "rootDir": "my-wiki/pages/test-page",
         "config": {
             "teambit.harmony/aspect": {},
             "teambit.envs/envs": {

@@ -16,7 +16,7 @@ export function Header({ pages, pagesElements }: HeaderProps) {
       </div>
       <div className="header__subpages">
         {pages?.map((page: PageLink) => (
-          <Link className="header__link" to={page.route}>
+          <Link className="header__link" to={page.route} key={page.title}>
             {page.title}
           </Link>
         ))}

@@ -4,6 +4,6 @@ import { BasicHeader } from './header.composition';
 
 it('should render with the correct text', () => {
   const { getByText } = render(<BasicHeader />);
-  const rendered = getByText('hello world!');
+  const rendered = getByText('LOGO');
   expect(rendered).toBeTruthy();
 });
